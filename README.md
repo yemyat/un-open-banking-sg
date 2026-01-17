@@ -5,7 +5,7 @@ A collection of AI [agent skills](https://agentskills.io/) that helps users pull
 ## Installation
 
 ```bash
-npx add-skill yemyat/essential-singapore-financial-life-skills
+npx add-skill yemyat/un-open-banking-sg
 ```
 
 ## Prerequisites
