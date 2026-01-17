@@ -41,6 +41,23 @@ These skills use browser automation rather than private APIs whenever possible s
 
 - **Browser closes after extraction.** By default, the agent closes the browser session after grabbing the information you need. If you want to ask follow-up questions or continue browsing, tell the agent explicitly to keep the browser window open.
 
+## Example Use Cases
+
+### 1. Net Worth Tracking
+
+Ask Claude or any agent that supports [Skills](https://agentskills.io) to update your balances across all your financial accounts.
+
+- **Automate it:** Set this up as a scheduled job on your machine so your computer does it automatically every week.
+- **Track over time:** Ask the agent to dump balances into a markdown file with the date each week for historical analysis.
+
+### 2. Portfolio Analysis
+
+Ask the agent to export all your detailed holdings (even from robo-advisor portfolios) into an Excel or markdown file. You can then query and analyze your asset allocation, sector exposure, or performance.
+
+## Supported Websites
+
+See [supported-websites.md](./generic-balance-checker/references/supported-websites.md) for the full list of supported financial institutions.
+
 ### Feedback
 
 If you have suggestions for improving the login flow or any other part of the experience, please [create a GitHub issue](https://github.com/yemyat/essential-singapore-financial-life-skills/issues). Looking for feedback!
